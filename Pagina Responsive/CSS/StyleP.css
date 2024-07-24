@@ -1,0 +1,284 @@
+@font-face {
+    font-family: Pretendo;
+    src: url("/Fuentes/Pretendo.ttf");
+}
+
+@font-face {
+    font-family: SMBros;
+    src: url("/Fuentes/smbfont.ttf");
+}
+
+@font-face {
+    font-family: Zelda;
+    src: url("/Fuentes/The\ Wild\ Breath\ of\ Zelda.otf");
+}
+
+@font-face {
+    font-family: Kong;
+    src: url("/Fuentes/Jumpman.ttf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Kong;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.navbar{
+    height: 100%;
+    width: 100%;
+    background-color: #ff0000;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 10%;
+    padding-left: 4%;
+    cursor: pointer;
+    margin: 30px  0;
+}
+
+.menu-icon{
+    width: 8%;
+    cursor: pointer;
+    display: none;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+nav ul li a:hover{
+    color: #ffe600;
+}
+
+button a{
+    color: #ffffff;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.col-1{
+    flex-basis: 40%;
+    position: relative;
+    margin-left: 50px;
+}
+
+.col-1 h2{
+    font-size: 54px;
+    color: #000725;
+}
+
+.col-1 h3{
+    font-size: 30px;
+    color: #707070;
+    font-weight: 100;
+    margin: 20px 0 10px;
+}
+
+.col-1 p{
+    font-size: 16px;
+    color: #b7b7b7;
+    font-weight: 100;
+}
+
+.col-1 h4{
+    margin: 30px 0;
+    font-size: 20px;
+}
+
+hr{
+    height: 2px;
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+    color: gray;
+    background-color: gray;
+    border-width: 0;
+}
+button{
+    width: 140px;
+    height: 40px;
+    border: 0;
+    padding: 12px 10px;
+    outline: none;
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: width 0.5s;
+}
+
+.button1{
+    background: linear-gradient(to right,#ff0000,#ffe600);
+}
+
+button img{
+    width: 30px;
+    display: none;
+}
+
+button:hover img{
+    display: block;
+}
+
+button:hover{
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.col-1::after{
+    content: '';
+    width: 10px;
+    height: 100%;
+    background: linear-gradient(#ff0000,#ffe600);
+    position: absolute;
+    left:-30px;
+    top: 8px;
+}
+
+.col-2{
+    position: relative;
+    flex-basis: 60%;
+    display: flex;
+    align-items: center;
+}
+
+.col-2 .controller{
+    width: 90%;
+}
+
+.imagen-banner{
+    width: 50%;
+    margin-left: 27%;
+    border-radius: 20px;
+}
+
+.color-box{
+    position: absolute;
+    right: 20.5%;
+    top: -5%;
+    background: linear-gradient(#ff0000,#ffbb00);
+    border-radius: 40px;
+    height: 110%;
+    width: 55%;
+    z-index: -1;
+}
+
+.add-btn img{
+    width: 35px;
+    margin-bottom: 5px;
+}
+.add-btn{
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 425px){
+    .logo{
+        width: 40%;
+        cursor: pointer;
+        margin: 30px  0;
+    }
+    
+    .menu-icon{
+        width: 10%;
+        display: block;
+        margin-left: 40%;
+    }
+
+    #menuList{
+        overflow: hidden;
+        transition: 0.5s;
+    }
+
+    .row{
+        flex-direction: column-reverse;
+        margin: 15px;
+    }
+
+    .col-2{
+        flex-basis: 100%;
+        margin-top: 20%;
+        margin-bottom: 50px;
+    }
+
+    .col-2 .controller{
+        width: 77%;
+    }
+
+    .imagen-banner{
+        width: 80%;
+        margin-left: 10%;
+        transform: translateY(-50px);
+    }
+
+    .color-box{
+        right: 5%;
+        top: -20.5%;
+        width: 90%;
+        height: 110%;
+    }
+
+    nav{
+        width: 100%;
+        background: linear-gradient(#ff0000,#ffe600);
+        position: absolute;
+        top: 10px;
+        right: 0;
+        z-index: 2;
+    }
+
+    nav ul{
+        width: 100%;
+        background: linear-gradient(#ff0000,#ffe600);
+        position: absolute;
+        top: 75px;
+        right: 0;
+        z-index: 2;
+    }
+
+    
+    nav ul li{
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    nav ul li a{
+        color: #fff;
+        font-size: 12px;
+    }
+
+    nav ul li a:hover{
+        color: #46b5ff;
+    }
+}

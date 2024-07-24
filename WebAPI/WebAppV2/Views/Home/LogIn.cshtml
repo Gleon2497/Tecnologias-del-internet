@@ -1,0 +1,212 @@
+﻿@{
+    ViewData["Title"] = "Log In";
+}
+
+<table width="100%" height="600">
+
+        <tr>
+            <td/> 
+            <td colspan="2" style="height: 150px;">
+                <hr>
+                <table width="100%">
+                    <tr>
+                        <td style="width: 50%;text-align: center;">
+                            <img src="@Url.Content("~/images/Logo.png")" height="100px" width="280" />
+                        </td>
+                        <td style="width: 50%;text-align: right; vertical-align: bottom;">
+                            <nav>
+                                <ul>
+                                    <li>
+                                        <a href="#"">Docentes</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Estudiantes</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Egresados</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <hr>
+                            <label><strong>Idioma:</strong></label>
+                            <input list="lenguajes" name="Lista"/>
+                            <datalist id="lenguajes">
+                                <option value="Spanish"></option>
+                                <option value="English"></option>
+                            </datalist>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td/>
+        </tr>
+        <tr>
+            <td/> 
+            <td colspan="2" style="background-color: rgb(122, 152, 122);height: 20px;"></td>
+            <td/>
+        </tr>
+        <tr>
+            <td/>
+            <td width="40%">
+                <table style="width:100%;height:100%">
+                    <tr>
+                        <td width="10%"></td>
+                        <td width="30%"></td>
+                        <td width="50%"></td>
+                        <td width="10%"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td style="text-align: center;">
+                            <img class="zoom"  src="@Url.Content("~/images/IDocentes.png")"  width="80" height="80"></img>
+                        </td>
+                        <td style="text-align: left;">
+                            <label>
+                                <a class="labelTitle">DOCENTES</a>
+                            </label>
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td style="text-align: center;">
+                            <img class="zoom" src="@Url.Content("~/images/IEstudiantes.png")"  width="80" height="80"></img>
+                        </td>
+                        <td style="text-align: left;">
+                            <label >
+                                <a class="labelTitle">ESTUDIANTES</a>
+                            </label>
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td style="text-align: center;">
+                            <img class="zoom" src="@Url.Content("~/images/IEgresados.png")" width="80" height="80"></img>
+                        </td>
+                        <td style="text-align: left;">
+                            <label >
+                                <a class="labelTitle">EGRESADOS</a>
+                            </label>
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+                
+            </td>
+            <td width="40%">
+                <form style="height: 100%;">
+                    <table style="background-color:rgba(190, 197, 184, 0.219) ; height: 100%; width: 100%;">
+                        <tr style="height: 30px; vertical-align: middle;">
+                            <td width="10%"></td>
+                            <td width="40%"></td>
+                            <td width="40%"></td>
+                            <td width="10%"></td>
+                        </tr>
+                        <tr style="height: 30px; vertical-align: middle;">
+                            <td width="10%"></td>
+                            <td width="40%" style="text-align: center;" class="SignUp">
+                                <a href="Parcial Corte 1.html" style="text-decoration: none;color:aliceblue">Sign Up</a>
+                            </td>
+                            <td width="40%" style="text-align: center;" class="LogIn">
+                                <a href="Parcial Corte 1 LogIn.html"style="text-decoration: none;color:aliceblue">Log In</a>
+                            </td>
+                            <td width="10%"></td>
+                        </tr>
+                        <tr style="height: 30px; vertical-align: middle;">
+                            <td width="10%"></td>
+                            <td width="40%"></td>
+                            <td width="40%"></td>
+                            <td width="10%"></td>
+                        </tr>
+                        <tr style="height: 80px; vertical-align: middle;">
+                            <td width="10%"></td>
+                            <td align="center" colspan="2" style="text-align: center; vertical-align: middle;border: 1;">
+                                
+                                <div>
+                                    <img src="@Url.Content("~/images/PersonIcon.png")" width="15%" height="15%"></img>
+                                </div>
+                                
+                                
+                            </td>
+                            <td width="10%"></td>
+                        </tr>
+                        <tr>
+                            <td width="10%"></td>
+                            <td colspan="2" style="text-align: center;">
+                                <form>
+                                    <table  width="100%" height="100%" >
+                                       
+                                        <tr style="height:10px ;">
+                                            <td width="45%"></td>
+                                            <td width="10%"></td>
+                                            <td width="45%"></td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="3">
+                                                <fieldset>
+                                                    <input type="text" name="text_name" id="text_id" placeholder="User Name*" required style="border: 0; background-color: transparent;width: 100%;"/>
+                                                </fieldset>
+                                            </td>
+                                        </tr>
+                                        <tr style="height:5px ;">
+                                            <td width="45%"></td>
+                                            <td width="10%"></td>
+                                            <td width="45%"></td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="3">
+                                                <fieldset>
+                                                    <input type="password" name="text_name" id="text_id" placeholder="Password*" required style="border: 0; background-color: transparent;width: 100%;"/>
+                                                </fieldset>
+                                            </td>
+                                        </tr>
+                                        <tr style="height:15px ;">
+                                            <td width="45%"></td>
+                                            <td width="10%"></td>
+                                            <td width="45%"></td>
+                                        </tr>
+                                        <tr style="height: 40px;">
+                                            <td colspan="3"style="text-align: center;">
+                                                <input id="GetStarted" class="GetStarted" type="submit" value="ACEPTAR" style="width: 50%;">
+                                            </td>
+                                        </tr>
+                                        <tr style="height:5px ;">
+                                            <td width="45%"></td>
+                                            <td width="10%"></td>
+                                            <td width="45%"></td>
+                                        </tr>
+                                    </table>
+                                </form>
+                            </td>
+                            <td width="10%"></td>
+                        </tr>
+                        <tr></tr>
+                    </table>
+
+                </form>
+                
+            </td>
+            
+            <td/>
+        </tr>
+                                           
+    </table>

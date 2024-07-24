@@ -1,0 +1,62 @@
+﻿@model IEnumerable<WebAppV2.Models.User>
+
+@{
+    ViewData["Title"] = "Home Page";
+    string NameUser = ViewBag.NameUser.ToString();
+}
+
+<h2>Create user</h2>
+
+@using (Html.BeginForm("CreateUser", "Home", FormMethod.Post))
+{
+    <input type="text" name="Name" value="@NameUser" />
+    <input class="btn btn-primary" type="submit" value="Create User" />
+}
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdn.datatables.net/1.11.3/css/dataTables.bootstrap5.min.css">
+<h2>List of Users</h2>
+
+<div class="container" style="width:100%">
+
+    @if (Model != null)
+    {
+        <table id="Table_Users" class="table table-striped" style="width:100%">
+            <colgroup>
+                <col style="width:33%">
+                <col style="width:33%">
+                <col style="width:34%">
+            </colgroup>
+            <thead>
+                <tr>
+                    
+                    <th class="bg-primary text-white fw-normal">
+                        @Html.Label("User Name")
+                    </th>
+                    <th class="bg-primary text-white fw-normal">
+                        @Html.Label("Fisrt Name")
+                    </th>
+                    <th class="bg-primary text-white fw-normal">
+                        @Html.Label("Last Name")
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (WebAppV2.Models.User oListItem in Model)
+                {
+                <tr>
+                    <td>@oListItem.UserName</td>
+                    <td>@oListItem.FSName</td>
+                    <td>@oListItem.LastName</td>
+                </tr>
+                }
+
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <div style="color:red;"> No Data Found</div>
+    }
+</div>
+<br />

@@ -1,0 +1,70 @@
+.imgFondo {
+    opacity: 0.5;
+}
+
+.GetStarted:hover {
+    background-color: rgb(71, 121, 164);
+}
+
+.GetStarted {
+    background-color: rgb(113, 189, 172);
+    border: 0;
+    width: 100%;
+    color: aliceblue;
+    font-size: xx-large;
+    cursor: pointer;
+    height: 50px;
+}
+
+.SignUp:hover {
+    background-color: rgb(71, 121, 164);
+}
+
+.SignUp {
+    background-color: rgb(113, 189, 172);
+    height: 35px;
+    border: 0;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.LogIn:hover {
+    background-color: rgb(71, 121, 164);
+}
+
+.LogIn {
+    background-color: rgb(74, 93, 74);
+    height: 35px;
+    border: 0;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+    margin: 10px;
+    line-height: 30px;
+}
+
+nav {
+    background: lightblue;
+    height: 50px;
+    border-bottom: 1px solid black;
+}
+
+.labelTitle:hover {
+    color: brown;
+    cursor: pointer;
+}
+
+.labelTitle {
+    color: rgb(82, 143, 147);
+    font-size: x-large;
+}
+
+
+.zoom:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    opacity: 50%;
+}

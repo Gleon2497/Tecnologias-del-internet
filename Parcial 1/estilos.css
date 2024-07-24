@@ -1,0 +1,316 @@
+*{
+    margin: 0px;
+    padding: 0px;;
+}
+
+.logo{
+    position: absolute;
+    width:300px ;
+    height: 100px;
+    left: 100px;
+    top:  0px;
+}
+
+.Docentes{
+position: absolute;
+width: 92px;
+height: 13px;
+left: 1200px;
+top: 40px;
+color:blue;
+}
+
+.Estudiantes{
+    position: absolute;
+    width: 92px;
+    height: 13px;
+    left: 1400px;
+    top: 40px;
+    color:blue;
+}
+
+.Egresados{
+    position: absolute;
+    width: 92px;
+    height: 13px;
+    left: 1600px;
+    top: 40px; 
+    color:blue;
+}
+
+.text_id{
+    position: absolute;
+    width: 92px;
+    height: 13px;
+    left: 200px;
+    top: 330px;  
+}
+
+.text_id2{
+    position: absolute;
+    width: 92px;
+    height: 13px;
+    left: 400px;
+    top: 330px;  
+}
+
+.email{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 300px;
+    top: 370px;  
+}
+
+.contra{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 300px;
+    top: 400px;  
+}
+
+.uni{
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    left: 1300px;
+    top: 170px;   
+}
+
+.sign{
+    position: absolute;
+   
+    left: 300px;
+    top: 270px; 
+}
+
+.boton1{
+    font-family: Arial;
+    font-size: 24px;
+    border-radius: 0px;
+    padding: 12px 10px;
+    position: absolute;
+    left: 200px;
+    top: 200px; 
+    background-color: green;
+    color: #fff;
+    width: 200px;
+
+}
+
+.boton2{
+    font-family: Arial;
+    font-size: 24px;
+    border-radius: 0px;
+    padding: 12px 10px;
+    position: absolute;
+    width: 200px;
+    left: 450px;
+    top: 200px; 
+    background-color: blue;
+    color: #fff;  
+}
+
+.boton3{
+    font-family: Arial;
+    font-size: 24px;
+    border-radius: 0px;
+    padding: 12px 10px;
+    position: absolute;
+    width: 453px;
+    left: 200px;
+    top: 450px; 
+    background-color: green;
+    color: #fff;  
+}
+
+.idioma{
+    position: absolute;
+    width: 92px;
+    height: 13px;
+    left: 1600px;
+    top: 80px;
+    color:blue; 
+}
+
+.text_id3{
+    position: absolute;
+    width: 92px;
+    height: 13px;
+    left: 1200px;
+    top: 370px;  
+}
+
+.contra1{
+    position: absolute;
+    width: 92px;
+    height: 13px;
+    left: 1200px;
+    top: 400px;  
+}
+
+
+
+.usuario2{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 1400px;
+    top: 250px;   
+}
+
+.boton4{
+    font-family: Arial;
+    font-size: 24px;
+    border-radius: 0px;
+    padding: 12px 10px;
+    position: absolute;
+    left: 1200px;
+    top: 180px; 
+    background-color: green;
+    color: #fff;
+    width: 200px;
+
+}
+
+.boton5{
+    font-family: Arial;
+    font-size: 24px;
+    border-radius: 0px;
+    padding: 12px 10px;
+    position: absolute;
+    width: 200px;
+    left: 1500px;
+    top: 180px; 
+    background-color: blue;
+    color: #fff;  
+}
+
+.boton6{
+    font-family: Arial;
+    font-size: 24px;
+    border-radius: 0px;
+    padding: 12px 10px;
+    position: absolute;
+    width: 453px;
+    left: 1230px;
+    top: 450px; 
+    background-color: green;
+    color: #fff;  
+}
+
+.eg{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 300px;
+    top: 600px;
+    transition: .8s;
+}
+
+.es{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 300px;
+    top: 400px;
+    transition: .8s;
+}
+
+.do{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 300px;
+    top: 200px;
+    transition: .8s;
+}
+
+.doc{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 500px;
+    top: 240px;
+}
+
+.est{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 500px;
+    top: 440px;
+}
+
+.egr{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 500px;
+    top: 640px;
+}
+
+.arriba{
+    position: absolute;
+    width: 100%;
+    height: 15px;
+    top: 155px;
+    background-color: black ;
+}
+
+.abajo{
+    position: absolute;
+    width: 100%;
+    height: 15px;
+    top: 570px;
+    background-color: black ;
+}
+
+.abajo2{
+    position: absolute;
+    width: 100%;
+    height: 15px;
+    top: 750px;
+    background-color: black ;
+}
+
+.eg:hover{
+    height: 120px;
+    width: 120px;
+}
+
+.es:hover{
+    height: 120px;
+    width: 120px;
+}
+
+.do:hover:hover{
+    height: 120px;
+    width: 120px;
+}
+
+.boton1:hover{
+text-decoration: none;
+background-color: blue;
+
+}
+
+.boton2:hover{
+    text-decoration: none;
+    background-color: green;
+    
+    }
+
+    .boton5:hover{
+        text-decoration: none;
+        background-color: green;
+        
+        }
+
+        .boton4:hover{
+            text-decoration: none;
+            background-color: blue;
+            
+            }
+
